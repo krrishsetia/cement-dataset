@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 
-df = pd.read_csv("csv files/cement_slump.csv")
+df = pd.read_csv("cement_slump.csv")
 #graphs
 #sns.countplot(df)
 #sns.scatterplot(x='sepal_length',y='sepal_width',data=df,hue='species')
